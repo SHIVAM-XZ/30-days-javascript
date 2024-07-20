@@ -63,6 +63,7 @@ number = 5
 console.log(number)
 // return 5
 
+
 const number = 4
 number = 5
 console.log(number)
