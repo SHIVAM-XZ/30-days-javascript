@@ -8,3 +8,4 @@ day 7 - taken time in that but not getting any problem
 day 8 - done mistakes in destructuring method
 day 9 - learned and getting error in modifying attribute and removing child element and somewhat in event handeling
 day 10 - learned all type of events and event delegation 
+day 11 - learned promises, settimeout, setinterval, then, try and catch, fetch api , async/await. async/await is so confusing for me. 
