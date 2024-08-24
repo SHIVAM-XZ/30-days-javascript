@@ -11,3 +11,4 @@ day 10 - learned all type of events and event delegation
 day 11 - learned promises, settimeout, setinterval, then, try and catch, fetch api , async/await. async/await is so confusing for me.
 day 12 - learned how error is handled specially in custom error object class, promises , fetch().
 day 13 - learned common js and ES6+ modules
+day 14 - understand constructor , class , inheritance, static,getter and setter
