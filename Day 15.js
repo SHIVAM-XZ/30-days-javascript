@@ -133,3 +133,17 @@ console.log(add(1, 2));
 console.log(add(2, 3));
 
 // Task8:
+
+function memoize(fn) {
+  const cache = {};
+  return function (n) {
+    if (cache[n] !== undefined || n in cache) return cache[n];
+    return (cache[n] = fn(n));
+  };
+}
+
+const factorial = memoize((n) => (n <= 1 ? 1 : n * factorial(n - 1)));
+
+console.log(factorial(5)); // Outputs: 120
+console.log(factorial(6)); // Outputs: 720
+console.log(factorial(5)); // Outputs: 120 (retrieved from cache)
