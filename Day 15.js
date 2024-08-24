@@ -139,11 +139,12 @@ function memoize(fn) {
   return function (n) {
     if (cache[n] !== undefined || n in cache) return cache[n];
     return (cache[n] = fn(n));
+    // fn(n) take n as an arguments and its computes the result
   };
 }
 
 const factorial = memoize((n) => (n <= 1 ? 1 : n * factorial(n - 1)));
 
-console.log(factorial(5)); // Outputs: 120
-console.log(factorial(6)); // Outputs: 720
-console.log(factorial(5)); // Outputs: 120 (retrieved from cache)
+console.log(factorial(5));
+console.log(factorial(6));
+console.log(factorial(5));
