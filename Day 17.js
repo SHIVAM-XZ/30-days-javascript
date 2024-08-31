@@ -156,13 +156,13 @@ class Queue {
     return this.items[this.frontIndex];
   }
 }
-const queue = new Queue();
-console.log(queue.enqueue(7)); // Output: 7 inserted
-console.log(queue.enqueue(2)); // Output: 2 inserted
-console.log(queue.enqueue(6)); // Output: 6 inserted
-console.log(queue.enqueue(4)); // Output: 4 inserted
-console.log(queue.dequeue()); // Output: 7 (removed)
-console.log(queue.peek()); // Output: 2 (front element)
+const queues = new Queue();
+console.log(queues.enqueue(7)); // Output: 7 inserted
+console.log(queues.enqueue(2)); // Output: 2 inserted
+console.log(queues.enqueue(6)); // Output: 6 inserted
+console.log(queues.enqueue(4)); // Output: 4 inserted
+console.log(queues.dequeue()); // Output: 7 (removed)
+console.log(queues.peek()); // Output: 2 (front element)
 
 // Task6:
 class Queue {
