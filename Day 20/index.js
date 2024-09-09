@@ -119,7 +119,7 @@ document.getElementById('form').addEventListener('submit',(event){
 })
 window.addEventListener('load', function(){
   const savedname = this.localStorage.getItem('lastName')
-  if(savednameme){
+  if(savedname){
     document.getElementById('name').value = savedname
   }
 })
